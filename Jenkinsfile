@@ -13,7 +13,7 @@ pipeline {
     {
         stage('checkout') {             
             steps {
-                sh 'rm -rf hello-world-war'
+                sh 'rm -rf bus_booking'
                 sh 'git clone https://github.com/SanjanaKrishna/bus_booking.git'
             }
         }
