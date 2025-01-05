@@ -19,7 +19,7 @@ pipeline {
         }
          stage('build') { 
             steps {
-                sh 'cd hello-world-war'
+                sh 'cd bus_booking'
                 sh 'mvn clean package'
             }
         }
