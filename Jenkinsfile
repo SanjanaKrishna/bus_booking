@@ -14,7 +14,7 @@ pipeline {
         stage('checkout') {             
             steps {
                 sh 'rm -rf hello-world-war'
-                sh 'git clone https://github.com/SanjanaKrishna/bus_booking.git
+                sh 'git clone https://github.com/SanjanaKrishna/bus_booking.git'
             }
         }
          stage('build') { 
