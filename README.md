@@ -36,7 +36,7 @@ Copy code
 ================================================================================================================================================
 #!/bin/bash
 
-# Step 1: Set up Maven environment
+# Step 1: Set up Maven environment in the server
 export MAVEN_HOME=/usr/local/maven
 export PATH=$MAVEN_HOME/bin:$PATH
 
